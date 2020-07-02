@@ -1,0 +1,34 @@
+Admin:
+  ✔ Manage Subscribers (CRUD) @done(19-04-09 11:24)
+  ✔ Manage Books & Copies @done(19-04-09 11:26)
+  ✔ Modify book.find() to use filters @done(19-04-11 17:50)
+  ✔ Manage Subscription Plans @done(19-04-09 11:26)
+  ☐ What happens when subscriber's current plan validity expires? Prevent login or prevent borrowing? 
+  ✔ manage subscription history @done(19-04-11 17:18)
+  ✔ Handle requests in reading lists @done(19-04-11 16:28)
+  ☐ Send notifications [TBD]
+    ✔ Push @done(19-04-16 17:10)
+    ✔ Email @done(19-04-16 17:10)
+    ☐ Automated notifs (need trigger details from client)
+  ☐ Check & Update documentation
+
+
+Subscriber:
+  ✔ Profile @done(19-04-11 17:19)
+    ✔ View own details @done(19-04-09 16:48)
+    ✔ Submit change request @done(19-04-09 18:15)
+    ✔ Raise help query @done(19-04-10 12:08)
+  ✔ Reading List @done(19-04-12 15:49)
+    ✔ View history of all books ever borrowed @done(19-04-12 13:40)
+      ✔ Use filters @done(19-04-12 13:40)
+    ✔ See proper no. of slots @done(19-04-11 13:29)
+    ✔ Search book (for an empty slot) @done(19-04-11 16:29)
+    ✔ Issue a book copy (for an empty slot) @done(19-04-10 17:32)
+    ✔ Validate before borrowing if slot available [IMPORTANT!!!] @done(19-04-12 15:49)
+    ✔ Return book copy (in a filled slot) @done(19-04-10 18:11)
+    ✔ Reissue book copy (in a filled slot) @done(19-04-10 18:11)
+    ✔ Cancel request for book copy (in a filled slot) @done(19-04-10 18:11)
+    ✔ Buy request for book copy (in a filled slot) @done(19-04-10 18:11)
+    ✔ Forgot password request @done(19-04-22 15:39)
+    ✔ Calculate & store `rating` on `book` object whenever subscriber rates on her reading list @done(19-04-22 16:11)
+

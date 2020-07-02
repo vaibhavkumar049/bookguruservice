@@ -1,0 +1,15 @@
+Hello,<br/><br/>
+Subscriber <b><%= subscriber.name.full %></b> (ID: <b><%= String(subscriber._id) %></b>; Email: <b><%= subscriber.email %></b>) has requested for the following changes in his/her profile:<br/><br/>
+
+<table border="1">
+  <tr>
+    <th>Field Name</th>
+    <th>New Value</th>
+  </tr>
+  <% fieldsToChange.forEach(item => { %>
+  <tr>
+    <td><%= item.fieldName %></td>
+    <td><%= item.value %></td>
+  </tr>
+  <% }) %>
+  </table>
