@@ -38,7 +38,7 @@
     "http-errors": "~1.6.2",
     "jsonwebtoken": "^8.3.0",
     "lodash": "^4.17.11",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "mongodb-memory-server": "^3.0.0",
     "mongoose": "^5.3.8",
     "morgan": "^1.9.1",
